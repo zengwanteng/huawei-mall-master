@@ -1,0 +1,276 @@
+#img {
+  width: 375px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+#img img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 145px;
+  top: 150px;
+}
+#img p{
+  position: absolute;
+  width: 150px;
+  left: 139px;
+  top: 300px;
+}
+
+#right {
+  float: right;
+  width: 1135px;
+  min-width: 800px;
+
+}
+
+#right>p {
+  /* margin-top: 30px; */
+  position: absolute;
+  top: 636px;
+  left: 436px;
+  font-size: 12px;
+  color: #838383;
+}
+
+#head {
+  height: 60px;
+  width: 100%;
+}
+
+#head>div:nth-child(1) {
+  width: 210px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 15px;
+  float: left;
+
+}
+
+#head>div:nth-child(1) img {
+  width: 56px;
+  height: 43px;
+  margin-top: -12px;
+}
+
+#head>div:nth-child(1) span {
+  font-size: 22px;
+  width: 100px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-left: 5px;
+  letter-spacing: 2px;
+}
+
+#head>div:nth-child(2) {
+  height: 40px;
+  width: 375px;
+  float: right;
+  margin-top: 20px;
+
+}
+
+#head>div:nth-child(2) a {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #838383;
+  line-height: 40px;
+}
+
+#head>div:nth-child(2) a:hover {
+  color: #ff6900;
+}
+
+.mi-nav__divider {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 14px;
+  width: 0;
+  border-right: 1px solid #ddd;
+
+}
+
+.mi-nav__item {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #838383;
+  line-height: 40px;
+}
+
+.mi-nav__item .mi-language-picker:hover {
+  color: #ff6900;
+}
+
+#body {
+  width: 100%;
+  height: 520px;
+  position: relative;
+}
+
+#body>div:nth-child(1)>div:nth-child(1) {
+  width: 360px;
+  height: 40px;
+  margin-left: 45px;
+  margin-top: 10px;
+
+
+}
+
+#body>div:nth-child(1)>div:nth-child(1) span {
+  color: #333;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+#body>div:nth-child(1) {
+  margin-top: 30px;
+  margin-left: 70px;
+  width: 450px;
+  height: 360px;
+  float: left;
+  box-shadow: 0px 0px 100px 42px #fafafa;
+  border-radius: 10px;
+  position: relative;
+}
+
+#body>div:nth-child(1) input {
+  width: 354px;
+  height: 60px;
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  line-height: 20px;
+  background: #fafafa;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+#body form button {
+  cursor: pointer;
+  width: 354px;
+  height: 60px;
+  background-color: #ff5c00;
+  border: none;
+  margin-left: 45px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+#body form{
+  position: relative;
+}
+#body form .yzm{
+  color: blue;
+  position: absolute;
+  right: 60px;
+  top: 180px;
+}
+
+#body .sj {
+  width: 354px;
+  height: 35px;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+#body .qiTa {
+  width: 354px;
+  height: 20px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+#body .qiTa p {
+  font-size: 16px;
+  color: #838383;
+}
+
+#body .qiTa div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#body .qiTa svg {
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+
+#body .sj>div:nth-child(1) {
+  float: left;
+  color: #ff5c00;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#body .sj>div:nth-child(2) {
+  float: right;
+  color: #ff5c00;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.erweima {
+  width: 64px;
+  height: 64px;
+  float: right;
+  cursor: pointer;
+  opacity: .4;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  border-color: #ff5c00 #ff5c00 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 32px;
+  background-size: cover;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  /* overflow: hidden; */
+  border-top-right-radius: 5px;
+
+}
+
+.erweima .icon-ico {
+  font-size: 47px;
+  right: -29px;
+  top: -37px;
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+}
+
+.tiao {
+  width: 40px;
+  height: 4px;
+  background-color: #ff5c00;
+  margin-left: 45px;
+  margin-top: -10px;
+  border-radius: 2px;
+}
+
+#pwdk {
+  margin-left: 45px;
+  color: #F04645;
+}
+
+#uerss {
+  margin-left: 45px;
+  color: #F04645;
+}

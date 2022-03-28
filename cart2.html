@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>空购物车</title>
+  <link rel="stylesheet" href="./css/commom.css">
+  <style>
+    #heads {
+      width: 100%;
+      height: 100px;
+      border-bottom: 2px solid #ff5c00;
+    }
+
+    #heads img {
+      margin-top: 25px;
+      width: 100px;
+      height: 50px;
+      float: left;
+    }
+
+    #heads>.content>span {
+      float: left;
+      line-height: 100px;
+      margin-bottom: 0;
+      font-size: 28px;
+      margin-left: 40px;
+    }
+
+    #heads>.content div {
+      float: right;
+      height: 100px;
+    }
+
+    #heads>.content div span {
+      line-height: 100px;
+      font-size: 12px;
+    }
+
+    #heads>.content div span a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, .65);
+    }
+
+    #hqx {
+      height: 800px;
+      width: 100%;
+      background: #f5f5f5;
+    }
+
+    #hqx img {
+      width: 400px;
+      height: 350px;
+      margin-top: 70px;
+      margin-left: 130px;
+      float: left;
+    }
+
+    .dl {
+      width: 690px;
+      float: right;
+      height: 400px;
+
+    }
+
+    .dl p:nth-child(1) {
+      font-size: 36px;
+      color: #b0b0b0;
+      margin-top: 200px;
+      font-weight: 700;
+    }
+
+    .dl p:nth-child(2) {
+      font-size: 20px;
+      color: #b0b0b0;
+    }
+
+    #dl {
+      width: 170px;
+      height: 48px;
+      line-height: 48px;
+      background: #ff6700;
+      border-color: #ff6700;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-top: 30px;
+    }
+
+    #gw {
+      width: 170px;
+      height: 48px;
+      line-height: 48px;
+      margin-top: 30px;
+      color: black;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="heads">
+    <div class="content">
+      <img src="https://res.vmallres.com/pimages//sale/2019-01/AF2GXbxrWmRqvyNfYzCl.png" alt="">
+      <span>我的购物车</span>
+
+      <div>
+        <span><a href="./register.html">登录</a></span>
+        <span>丨</span>
+        <span><a href="./enroll.html">注册</a></span>
+      </div>
+    </div>
+  </div>
+  <div id="hqx">
+    <div class="content">
+      <img src="http://127.0.0.1:5500/huawei3/huawei-master/images/icon-header-minicart.32e5f81.png" alt="">
+      <div class="dl">
+        <p>您的购物车还是空的!</p>
+        <p>登录之后将显示您之前加入的商品</p>
+        <button onclick="btnFn()" id="dl">立即登录</button>
+        <button id="gw" onclick="gwFn()">马上去购物</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    // let btn = document.querySelector("#dl")
+    function btnFn() {
+      location.href = './register.html'
+    }
+
+    function gwFn() {
+      location.href = './index2.html'
+    }
+  </script>
+</body>
+
+</html>

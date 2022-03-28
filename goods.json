@@ -1,0 +1,79 @@
+[
+  {
+    
+    "id": 1,
+    "src": "https://res2.vmallres.com/pimages/product/6941487220267/428_428_F13AA68E9144D05B80625727C9D30A54425EBB04E0E1CA95mp.png",
+    "price": 4999,
+    "name": "HUAWEI Mate 40",
+    "info":"5nm麒麟9000E旗舰芯片",
+    "herff":"./gouwuye.html"
+  },
+  {
+    "id": 2,
+    "src": "https://res2.vmallres.com/pimages/product/6941487225064/428_428_D58F3741EBC023C1DD544D1A9D77B2DF8D1873FF58D72D75mp.png",
+    "price": 17799,
+    "name": "HUAWEI Mate X2"
+    ,
+    "info":"一屏多用，自由拖拽"
+    ,
+    "herff":"./gouwuye.html"
+  },
+  {
+    "id": 3,
+    "src": "https://res3.vmallres.com/pimages/product/6941487233519/428_428_C409A15DAE69B8B4E4A504FBDF5AB6FEB2C8F5868A7C84C4mp.png",
+    "price": 7488,
+    "name": "HUAWEI P50 Pro"
+    ,
+    "info":"原色双影像单元"
+    ,
+    "herff":"./gouwuye.html"
+  },
+  {
+    "id": 4,
+    "src": "https://res5.vmallres.com/pimages/product/6941487225453/428_428_562B44FC988661773404CB6CAB668F0B1F68C052765DF86Bmp.png",
+    "price": 3099,
+    "name": "HUAWEI nova8",
+    "info":"7.64mm纤薄机身"
+    ,
+    "herff":"./gouwuye.html"
+  },
+  {
+    "id": 5,
+    "src": "https://res5.vmallres.com/pimages/product/6941487222568/428_428_C10CAE77636105DD6AE75592A8D2D223E6676A8A3FD5E0A7mp.png",
+    "price": 10999,
+    "name": "HUAWEI Mate 40 RS保时捷设计",
+    "info":"致敬时代"
+    ,
+    "herff":"./gouwuye.html"
+  },
+  {
+    "id": 6,
+    "src": "https://res6.vmallres.com/pimages/product/6941487235032/428_428_8A83D6E89B4CE64E2586E168DF50AED8E6E6517FB5A69278mp.png",
+    "price": 6999,
+    "name": "MateBook 14s"
+    ,
+    "info":"多设备互联"
+    ,
+    "herff":"./gouwuye.html"
+  },
+  {
+    "id": 7,
+    "src": "https://res5.vmallres.com/pimages/uomcdn/CN/cms/202110/B393F3CA2290A5BF7FD880C2E24B77EA.jpg.webp",
+    "price": 24799,
+    "name": "华为智慧屏"
+    ,
+    "info":"莱茵护眼认证"
+    ,
+    "herff":"./gouwuye.html"
+  },
+  {
+    "id": 8,
+    "src": "https://res1.vmallres.com/pimages/product/6972453166623/428_428_3BEC2C42E7A4A37E60FDC56465F3AF18E3EC0FC7F4D09B15mp.png",
+    "price": 4688,
+    "name": "HUAWEI WATCH GT 2"
+    ,
+    "info":"保时捷设计"
+    ,
+    "herff":"./gouwuye.html"
+  }
+]
